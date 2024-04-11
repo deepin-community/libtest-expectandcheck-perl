@@ -1,0 +1,43 @@
+Revision history for Test-ExpectAndCheck
+
+0.06    2023-10-17
+        [CHANGES]
+         * Ensure that the callback in `->will_return_using` can modify caller
+           arguments if necessary for successfully mocking mutator functions
+         * Various module style updates:
+            + use Perl 5.14
+            + swap unit tests to Test2::V0
+
+0.05    2022-10-07
+        [CHANGES]
+         * Added `->whenever` for creating stub helper methods that assist the
+           code-under-test
+         * Added `->will_return_using` for dynamic result creation
+         * Added `$exp->indefinitely` for whenever expectations that outlive
+           calls to `->check_and_clear`
+
+0.04    2022-10-04
+        [CHANGES]
+         * Added entire new set of `->will_*` API methods, deprecating also
+           the previous set
+         * Added new `->will_also` and `->will_also_later` methods
+
+0.03    2021-07-14
+        [CHANGES]
+         * Print more detailed error message on expectation failure to give
+           details about what the next expectation was
+         * Set @CARP_NOT to get slightly better call location reporting
+         * Added ->remains_pending method to allow returned futures to not
+           complete at all
+
+        [BUGFIXES]
+         * Fix printable-or-not detection logic so it applies to all bytes
+         * Handle `undef` correctly in stringification logic
+
+0.02    2021-01-02
+        [CHANGES]
+         * Return deferred futures by default
+         * Added ->immediately method to make some returns immediate
+
+0.01    2020-11-25
+        First version, released on an unsuspecting world.

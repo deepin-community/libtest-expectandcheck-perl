@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+libtest-expectandcheck-perl (0.06-2) unstable; urgency=medium
 
-  * Initial release
+  * No-change source-only re-upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Fri, 27 Oct 2023 00:03:37 +0200
+
+libtest-expectandcheck-perl (0.06-1) unstable; urgency=low
+
+  * Initial release (closes: #1054599).
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 26 Oct 2023 18:04:06 +0200
