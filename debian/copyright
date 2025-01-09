@@ -4,11 +4,11 @@ Upstream-Contact: Paul Evans <leonerd@leonerd.org.uk>
 Upstream-Name: Test-ExpectAndCheck
 
 Files: *
-Copyright: 2020-2023, Paul Evans <leonerd@leonerd.org.uk>
+Copyright: 2020-2024, Paul Evans <leonerd@leonerd.org.uk>
 License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2023, gregor herrmann <gregoa@debian.org>
+Copyright: 2023-2024, gregor herrmann <gregoa@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic

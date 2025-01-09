@@ -1,3 +1,11 @@
+libtest-expectandcheck-perl (0.07-1) unstable; urgency=medium
+
+  * Import upstream version 0.07.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 28 Oct 2024 21:35:33 +0100
+
 libtest-expectandcheck-perl (0.06-2) unstable; urgency=medium
 
   * No-change source-only re-upload.
